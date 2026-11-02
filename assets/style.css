@@ -1,0 +1,112 @@
+/* ===================================================
+   InsightAI Enterprise Theme
+=================================================== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Main App */
+html, body, [class*="css"]{
+    font-family: 'Inter', sans-serif;
+}
+
+.main{
+    background:#F8FAFC;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+    background:#0F172A;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+/* Titles */
+
+h1{
+    color:#1E293B;
+    font-weight:700;
+}
+
+h2{
+    color:#2563EB;
+    font-weight:600;
+}
+
+h3{
+    color:#334155;
+}
+
+/* Buttons */
+
+.stButton>button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:10px 18px;
+
+    font-weight:600;
+
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+}
+
+/* KPI Cards */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    border:1px solid #E2E8F0;
+
+    box-shadow:0 8px 20px rgba(15,23,42,.08);
+}
+
+/* Tables */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:15px;
+
+    overflow:hidden;
+}
+
+/* Success */
+
+.stSuccess{
+
+    border-radius:12px;
+}
+
+/* Warning */
+
+.stWarning{
+
+    border-radius:12px;
+}
+
+/* Info */
+
+.stInfo{
+
+    border-radius:12px;
+}
